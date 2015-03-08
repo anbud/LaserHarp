@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="600.0" style="-fx-background-color: #0f0f0f;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Label text="laserharp controller" textAlignment="CENTER" textFill="#ababab" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Segoe UI Light" size="30.0" />
+         </font>
+         <padding>
+            <Insets bottom="20.0" left="50.0" right="50.0" top="20.0" />
+         </padding>
+      </Label>
+   </top>
+   <center>
+      <GridPane hgap="10.0" prefHeight="152.0" prefWidth="596.0" style="-fx-border-insets: 5px;" vgap="10.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Pane fx:id="n0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FF542E;">
+               <effect>
+                  <BoxBlur height="10.0" width="10.0" />
+               </effect>
+            </Pane>
+            <Pane fx:id="n1" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #F2BC00;" GridPane.columnIndex="1">
+               <effect>
+                  <BoxBlur height="10.0" width="10.0" />
+               </effect>
+            </Pane>
+            <Pane fx:id="n2" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFF0BA;" GridPane.columnIndex="2">
+               <effect>
+                  <BoxBlur height="10.0" width="10.0" />
+               </effect>
+            </Pane>
+            <Pane fx:id="n3" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #CFD6DE;" GridPane.columnIndex="3">
+               <effect>
+                  <BoxBlur height="10.0" width="10.0" />
+               </effect>
+            </Pane>
+            <Pane fx:id="n4" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #F97D81;" GridPane.columnIndex="4">
+               <effect>
+                  <BoxBlur height="10.0" width="10.0" />
+               </effect>
+            </Pane>
+            <Pane fx:id="n5" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #7297BA;" GridPane.columnIndex="5">
+               <effect>
+                  <BoxBlur height="10.0" width="10.0" />
+               </effect>
+            </Pane>
+            <Pane fx:id="n6" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #82AFF9;" GridPane.columnIndex="6">
+               <effect>
+                  <BoxBlur height="10.0" width="10.0" />
+               </effect>
+            </Pane>
+            <Pane fx:id="s0" onMouseClicked="#changeScale" onMouseEntered="#hoverin" onMouseExited="#hoverout" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #218C8D;" GridPane.rowIndex="1">
+               <effect>
+                  <BoxBlur height="10.0" width="10.0" />
+               </effect>
+            </Pane>
+            <Pane fx:id="s1" onMouseClicked="#changeScale" onMouseEntered="#hoverin" onMouseExited="#hoverout" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #6CCECB;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <effect>
+                  <BoxBlur height="10.0" width="10.0" />
+               </effect>
+            </Pane>
+            <Pane fx:id="s2" onMouseClicked="#changeScale" onMouseEntered="#hoverin" onMouseExited="#hoverout" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #9881F5;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <effect>
+                  <BoxBlur height="10.0" width="10.0" />
+               </effect>
+            </Pane>
+            <Pane fx:id="s3" onMouseClicked="#changeScale" onMouseEntered="#hoverin" onMouseExited="#hoverout" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #EF7126;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <effect>
+                  <BoxBlur height="10.0" width="10.0" />
+               </effect>
+            </Pane>
+            <Pane fx:id="s4" onMouseClicked="#changeScale" onMouseEntered="#hoverin" onMouseExited="#hoverout" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #8EDC9D;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <effect>
+                  <BoxBlur height="10.0" width="10.0" />
+               </effect>
+            </Pane>
+            <Pane fx:id="s5" onMouseClicked="#changeScale" onMouseEntered="#hoverin" onMouseExited="#hoverout" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #473E3F;" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <effect>
+                  <BoxBlur height="10.0" width="10.0" />
+               </effect>
+            </Pane>
+            <Pane fx:id="s6" onMouseClicked="#changeScale" onMouseEntered="#hoverin" onMouseExited="#hoverout" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #218C8D;" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <effect>
+                  <BoxBlur height="10.0" width="10.0" />
+               </effect>
+            </Pane>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <effect>
+            <InnerShadow choke="0.25" />
+         </effect>
+      </GridPane>
+   </center>
+</BorderPane>
